@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var locationHandler = LocationHandler()
+    var lastKnownLocation: String = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text(locationHandler.locationInformation)
+                .padding()
+            Spacer()
+            Button("Find Music") {
+                locationHandler.requestLocation()
+            } .onAppear(perform: {
+                locationHandler.requestAuthorization()
+            })
+        }
+        
     }
 }
 
