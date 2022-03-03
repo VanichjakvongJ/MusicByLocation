@@ -29,6 +29,7 @@ class StateController: ObservableObject {
     
     func updateArtistsByLocation(artists: [Artist]?) {
         let names = artists?.map { return $0.name }
+        let types = artists?.map { return $0.type }
         DispatchQueue.main.async {
             self.artistsByLocation = names ?? ["Error finding Artists from your location"]
         }

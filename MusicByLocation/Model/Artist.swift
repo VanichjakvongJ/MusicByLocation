@@ -9,8 +9,11 @@ import Foundation
 
 struct Artist: Codable {
     var name: String
+    var type: String
     
     private enum CodingKeys: String, CodingKey {
         case name = "artistName"
+        case type = "artistType"
+        //seems not to work with primaryGenreName
     }
 }
