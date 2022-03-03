@@ -16,11 +16,11 @@ extension CLPlacemark {
                Country: \(self.country ?? "Could not find country")
                Postal Code: \(self.postalCode ?? "Could not find postal code")
                Administrative Area: \(self.administrativeArea ?? "Could not find administrative area")
-               Sub-Administrative Area: \(self.subAdministrativeArea ?? "Could not find administrative area information")
-               City: \(self.locality ?? "Could not find locality")
-               Sub-City: \(self.subLocality ?? "Could not find locality information")
+               Sub-Administrative Area: \(self.subAdministrativeArea ?? "Could not find sub-administrative area")
+               City: \(self.locality ?? "Could not find city")
+               Sub-City: \(self.subLocality ?? "Could not find sub-city")
                Street Address: \(self.thoroughfare ?? "Could not find street address")
-               Sub-Street Address: \(self.subThoroughfare ?? "Could not find street address information ")
+               Sub-Street Address: \(self.subThoroughfare ?? "Could not find sub-street address")
                """
         
     }

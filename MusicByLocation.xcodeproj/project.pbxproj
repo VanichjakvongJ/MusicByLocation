@@ -19,6 +19,7 @@
 		43B98AB627C995A300A27B9A /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B98AB527C995A300A27B9A /* MusicByLocationUITests.swift */; };
 		43B98AB827C995A300A27B9A /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B98AB727C995A300A27B9A /* MusicByLocationUITestsLaunchTests.swift */; };
 		43B98AC527C9964E00A27B9A /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B98AC427C9964E00A27B9A /* LocationHandler.swift */; };
+		43BFB61227D12AA900974EF9 /* ITunesAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFB61127D12AA900974EF9 /* ITunesAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		43B98AB527C995A300A27B9A /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		43B98AB727C995A300A27B9A /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		43B98AC427C9964E00A27B9A /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		43BFB61127D12AA900974EF9 /* ITunesAdaptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				43B98A9E27C995A300A27B9A /* Assets.xcassets */,
 				43B98AA027C995A300A27B9A /* Preview Content */,
 				4380675727CD757E00E16825 /* StateController.swift */,
+				43BFB61127D12AA900974EF9 /* ITunesAdaptor.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B98AC527C9964E00A27B9A /* LocationHandler.swift in Sources */,
+				43BFB61227D12AA900974EF9 /* ITunesAdaptor.swift in Sources */,
 				43B98A9D27C995A100A27B9A /* ContentView.swift in Sources */,
 				43B98A9B27C995A100A27B9A /* MusicByLocationApp.swift in Sources */,
 				436B382027CD2B4600455B80 /* CLPlacemark.swift in Sources */,

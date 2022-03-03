@@ -12,6 +12,5 @@ struct Artist: Codable {
     
     private enum CodingKeys: String, CodingKey {
         case name = "artistName"
-        
     }
 }
